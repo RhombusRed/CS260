@@ -10,3 +10,6 @@
 [submodule "Lab_1"]
 	path = Lab_1
 	url = https://github.com/BYU-CS260-Winter-2018/lab-1-RhombusRed.git
+[submodule "Creative2"]
+	path = Creative2
+	url = https://github.com/RhombusRed/CS260Creative2.git
