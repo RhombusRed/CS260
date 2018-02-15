@@ -1,3 +1,12 @@
 [submodule "portfolio"]
 	path = portfolio
 	url = https://github.com/RhombusRed/portfolio.git
+[submodule "Creative1"]
+	path = Creative1
+	url = https://github.com/RhombusRed/CS260Creative1.git
+[submodule "Lab_2"]
+	path = Lab_2
+	url = https://github.com/BYU-CS260-Winter-2018/lab-2-RhombusRed.git
+[submodule "Lab_1"]
+	path = Lab_1
+	url = https://github.com/BYU-CS260-Winter-2018/lab-1-RhombusRed.git
