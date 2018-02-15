@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+ </head>
+<body>
+    <div id="root">
+        <input type="text" id="input" v-model="message">
+        <p v-bind:title="vtitle" v-if="seen">The input says {{message}}.</p>
+        <ol>
+            <li v-for="array in arrays" v-text="array.text"></li>
+        </ol>
+        <p>{{ message }}</p>
+        <button v-on:click="reverseMessage">Reverse Message</button>
+    </div>
+    <script src="https://unpkg.com/vue@2.5.13/dist/vue.js"></script>
+    <script>
+        new Vue({
+            el: '#root',
+            data: {
+                message: "hello world",
+                vtitle: "title",
+                seen: true,
+                arrays: [
+                    { text: "one"},
+                    { text: "two"},
+                    { text: "three"}
+                ]
+            },
+            methods: {
+                reverseMessage: function () {
+                    this.message = this.message.split('').reverse().join('')
+                }
+            }
+        })
+    </script>
+ </body>
+</html>

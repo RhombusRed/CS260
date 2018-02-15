@@ -1,0 +1,10 @@
+https://github.com/RhombusRed/portfolio.git
+https://github.com/BYU-CS260-Winter-2018/lab-1-RhombusRed.git
+https://github.com/RhombusRed/CS260Creative1.git
+https://github.com/BYU-CS260-Winter-2018/lab-2-RhombusRed.git
+https://github.com/RhombusRed/CS260Creative2.git
+
+http://www.dnd5eapi.co/
+
+http://eloquentjavascript.net/14_event.html
+http://eloquentjavascript.net/06_object.html

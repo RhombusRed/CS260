@@ -1,0 +1,39 @@
+1.
+var arrays = [[1, 2, 3], [4, 5], [6]];
+console.log([].concat.apply([], arrays));
+// ? [1, 2, 3, 4, 5, 6]
+
+2.
+function average(array) {
+  function plus(a, b) { return a + b; }
+  return array.reduce(plus) / array.length;
+}
+
+var byName = {};
+ancestry.forEach(function(person) {
+  byName[person.name] = person;
+});
+
+function findMotherAge(person) {
+  for (var i = 0; i < ancestry.length; i ++) {
+    if(person.mother == ancestry[i].name) return ancestry[i].born;
+  }
+}
+
+function hasMother(person) {
+  for (var i = 0; i < ancestry.length; i ++) {
+    if(person.mother == ancestry[i].name) return true;
+  }
+  return false;
+}
+
+var withMother = ancestry.filter(function(person) {
+  if (person.mother != null && hasMother(person)) return person.mother != null;})
+
+console.log(average(withMother.map(function(person) {
+  return person.born - findMotherAge(person);
+})));
+
+
+
+// ? 31.2
