@@ -13,3 +13,9 @@
 [submodule "Creative2"]
 	path = Creative2
 	url = https://github.com/RhombusRed/CS260Creative2.git
+[submodule "ClassExamples"]
+	path = ClassExamples
+	url = https://github.com/zappala/cs260-examples.git
+[submodule "Lab_3"]
+	path = Lab_3
+	url = https://github.com/BYU-CS260-Winter-2018/lab-3-RhombusRed.git
